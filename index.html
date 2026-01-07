@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="울산 중구 위치한 윤가든 사진관 - 백일, 돌잔치, 생일촬영, 여권/증명사진 전문. 소중한 순간을 영원히 담아드립니다.">
+    <meta name="keywords" content="울산 사진관, 백일 사진, 돌잔치 사진, 아기 사진, 가족 사진, 증명사진, 울산 중구 사진관, 윤가든">
+    <meta name="author" content="윤가든 사진관">
+    <meta name="robots" content="index, follow">
+
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="윤가든 사진관 - 소중한 순간을 영원히 담아드립니다">
+    <meta property="og:description" content="울산 중구 위치한 프리미엄 어린이 및 가족 사진관. 백일, 돌잔치, 생일촬영, 여권사진 전문.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ygarden-studio.com">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1519689373023-dd07c7988603?w=1200">
+    <meta property="og:locale" content="ko_KR">
+
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="윤가든 사진관">
+    <meta name="twitter:description" content="소중한 순간을 영원히 담아드립니다">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1519689373023-dd07c7988603?w=1200">
+
+
+    <link rel="canonical" href="https://ygarden-studio.com">
+    <meta name="theme-color" content="#FFE5EC">
+
+
+    <title>윤가든 사진관 - 소중한 순간을 영원히 담아드립니다</title>
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Nanum+Myeongjo:wght@400;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "윤가든 사진관",
+      "image": "https://images.unsplash.com/photo-1519689373023-dd07c7988603?w=1200",
+      "description": "울산 중구 위치한 프리미엄 어린이 및 가족 사진관",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "염포로 3 금강빌딩 3층",
+        "addressLocality": "중구",
+        "addressRegion": "울산",
+        "addressCountry": "KR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.5384,
+        "longitude": 129.3114
+      },
+      "telephone": "+82-507-1388-3265",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Thursday", "Friday", "Saturday"],
+          "opens": "10:00",
+          "closes": "18:00"
+        }
+      ],
+      "priceRange": "₩20,000 - ₩80,000",
+      "url": "https://ygarden-studio.com",
+      "sameAs": [
+        "https://www.instagram.com/ygarden_studio",
+        "https://pf.kakao.com/_NzFBxj"
+      ]
+    }
+    </script>
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        :root {
+            --color-pink: #FFE5EC;
+            --color-cream: #FFF9F0;
+            --color-beige: #F5EDE3;
+            --color-rose: #FFC2D1;
+            --color-dark: #4A4A4A;
+            --color-text: #333333;
+            --color-kakao: #FEE500;
+            --font-primary: 'Noto Sans KR', sans-serif;
+            --font-display: 'Nanum Myeongjo', serif;
+        }
+
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+
+        body {
+            font-family: var(--font-primary);
+            color: var(--color-text);
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-color: var(--color-cream);
+        }
+
+
+        /* Navigation */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 1.5rem 5%;
+            transition: all 0.4s ease;
+            background: transparent;
+        }
+
+
+        .navbar.scrolled {
+            background: rgba(255, 255, 255, 0.98);
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+            padding: 1rem 5%;
+        }
+
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+        .nav-logo {
+            font-family: var(--font-display);
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--color-dark);
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+        }
+
+
+        .nav-link {
+            text-decoration: none;
+            color: var(--color-dark);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--color-rose);
+            transition: width 0.3s ease;
+        }
+
+
+        .nav-link:hover {
+            color: var(--color-rose);
+        }
+
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+        }
+
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background: var(--color-dark);
+            transition: all 0.3s ease;
+            border-radius: 3px;
+        }
+
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            background: linear-gradient(135deg, var(--color-pink) 0%, var(--color-cream) 50%, var(--color-beige) 100%);
+            overflow: hidden;
+        }
+
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('https://images.unsplash.com/photo-1519689373023-dd07c7988603?w=1920&q=80') center/cover;
+            opacity: 0.15;
+            z-index: 0;
+        }
+
+
+        .hero-content {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            padding: 2rem;
+            animation: fadeInUp 1.2s ease-out;
+        }
+
+
+        .hero-title {
+            font-family: var(--font-display);
+            font-size: clamp(3rem, 8vw, 6rem);
+            font-weight: 800;
+            color: var(--color-dark);
+            margin-bottom: 1.5rem;
+            letter-spacing: -2px;
+            line-height: 1.1;
+        }
+
+
+        .hero-subtitle {
+            font-size: clamp(1.2rem, 3vw, 1.8rem);
+            color: var(--color-dark);
+            font-weight: 300;
+            margin-bottom: 3rem;
+            opacity: 0.9;
+        }
+
+
+        .hero-cta {
+            display: inline-block;
+            padding: 1.2rem 3rem;
+            background: linear-gradient(135deg, var(--color-rose), #FFB3C6);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(255, 194, 209, 0.4);
+        }
+
+
+        .hero-cta:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(255, 194, 209, 0.6);
+        }
+
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+
+        /* Section Styles */
+        section {
+            padding: 6rem 5%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+
+        .section-title {
+            font-family: var(--font-display);
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 1rem;
+            color: var(--color-dark);
+            letter-spacing: -1px;
+        }
+
+
+        .section-subtitle {
+            text-align: center;
+            color: var(--color-dark);
+            opacity: 0.7;
+            margin-bottom: 4rem;
+            font-size: 1.1rem;
+        }
+
+
+        /* About Section */
+        .about {
+            background: white;
+        }
+
+
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.15rem;
+            line-height: 2;
+            color: var(--color-dark);
+        }
+
+
+        .about-content p {
+            margin-bottom: 1.5rem;
+        }
+
+
+        /* Portfolio Gallery */
+        .portfolio {
+            background: var(--color-beige);
+        }
+
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            cursor: pointer;
+            aspect-ratio: 3/4;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+
+        .gallery-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+
+        .gallery-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+            padding: 2rem 1.5rem 1.5rem;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+
+
+        .gallery-item:hover .gallery-overlay {
+            transform: translateY(0);
+        }
+
+
+        .gallery-title {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 0.5rem;
+        }
+
+
+        .gallery-description {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 0.9rem;
+        }
+
+
+        /* Lightbox */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.95);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+
+        .lightbox.active {
+            display: flex;
+        }
+
+
+        .lightbox-content {
+            max-width: 90%;
+            max-height: 90%;
+            position: relative;
+        }
+
+
+        .lightbox-content img {
+            max-width: 100%;
+            max-height: 90vh;
+            border-radius: 10px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+
+
+        .lightbox-close {
+            position: absolute;
+            top: -40px;
+            right: 0;
+            font-size: 2rem;
+            color: white;
+            background: none;
+            border: none;
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s ease;
+        }
+
+
+        .lightbox-close:hover {
+            transform: rotate(90deg);
+        }
+
+
+        /* Services Section */
+        .services {
+            background: white;
+        }
+
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2.5rem;
+            margin-top: 3rem;
+        }
+
+
+        .service-card {
+            background: var(--color-cream);
+            border: 2px solid var(--color-rose);
+            border-radius: 20px;
+            padding: 3rem 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+            transition: left 0.5s ease;
+        }
+
+
+        .service-card:hover::before {
+            left: 100%;
+        }
+
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(255, 194, 209, 0.3);
+        }
+
+
+        .service-icon {
+            font-size: 3.5rem;
+            color: var(--color-rose);
+            margin-bottom: 1.5rem;
+        }
+
+
+        .service-title {
+            font-family: var(--font-display);
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--color-dark);
+        }
+
+
+        .service-price {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--color-rose);
+            margin-bottom: 1rem;
+        }
+
+
+        .service-description {
+            color: var(--color-dark);
+            opacity: 0.8;
+            line-height: 1.8;
+        }
+
+
+        /* Business Info Section */
+        .business-info {
+            background: var(--color-pink);
+        }
+
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+
+
+        .info-card {
+            background: white;
+            border-radius: 20px;
+            padding: 2.5rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .info-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--color-dark);
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+
+        .info-card h3 i {
+            color: var(--color-rose);
+        }
+
+
+        .info-card p,
+        .info-card a {
+            font-size: 1.1rem;
+            color: var(--color-dark);
+            margin-bottom: 1rem;
+            text-decoration: none;
+        }
+
+
+        .info-card a:hover {
+            color: var(--color-rose);
+        }
+
+
+        .hours-table {
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+
+        .hours-table td {
+            padding: 0.8rem 0;
+            border-bottom: 1px solid var(--color-beige);
+        }
+
+
+        .hours-table td:first-child {
+            font-weight: 600;
+            width: 50%;
+        }
+
+
+        .kakao-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 1rem 2rem;
+            background: var(--color-kakao);
+            color: #3C1E1E;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-top: 1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(254, 229, 0, 0.3);
+        }
+
+
+        .kakao-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(254, 229, 0, 0.5);
+        }
+
+
+        .map-container {
+            width: 100%;
+            height: 350px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+
+        /* Contact Form */
+        .contact {
+            background: white;
+        }
+
+
+        .contact-form {
+            max-width: 700px;
+            margin: 3rem auto 0;
+            background: var(--color-cream);
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .form-group {
+            margin-bottom: 2rem;
+        }
+
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--color-dark);
+            font-size: 1rem;
+        }
+
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 1rem 1.5rem;
+            border: 2px solid var(--color-beige);
+            border-radius: 10px;
+            font-family: var(--font-primary);
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+            background: white;
+        }
+
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--color-rose);
+        }
+
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 150px;
+        }
+
+
+        .submit-btn {
+            width: 100%;
+            padding: 1.2rem;
+            background: linear-gradient(135deg, var(--color-rose), #FFB3C6);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-family: var(--font-primary);
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(255, 194, 209, 0.4);
+        }
+
+
+        .submit-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(255, 194, 209, 0.6);
+        }
+
+
+        /* Instagram Section */
+        .instagram {
+            background: var(--color-beige);
+            text-align: center;
+        }
+
+
+        .instagram-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1.5rem 3rem;
+            background: linear-gradient(135deg, #833AB4, #FD1D1D, #F77737);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.3rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(131, 58, 180, 0.4);
+            margin-top: 2rem;
+        }
+
+
+        .instagram-link:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(131, 58, 180, 0.6);
+        }
+
+
+        /* Footer */
+        .footer {
+            background: var(--color-dark);
+            color: white;
+            padding: 3rem 5%;
+            text-align: center;
+        }
+
+
+        .footer-socials {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+
+        .footer-socials a {
+            color: white;
+            font-size: 1.8rem;
+            transition: all 0.3s ease;
+        }
+
+
+        .footer-socials a:hover {
+            color: var(--color-rose);
+            transform: translateY(-5px);
+        }
+
+
+        .footer-copyright {
+            opacity: 0.7;
+            font-size: 0.95rem;
+        }
+
+
+        /* Floating KakaoTalk Button */
+        .floating-kakao {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 65px;
+            height: 65px;
+            background: var(--color-kakao);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: #3C1E1E;
+            text-decoration: none;
+            box-shadow: 0 10px 30px rgba(254, 229, 0, 0.5);
+            z-index: 999;
+            transition: all 0.3s ease;
+            animation: float 3s ease-in-out infinite;
+        }
+
+
+        .floating-kakao:hover {
+            transform: scale(1.1);
+            box-shadow: 0 15px 40px rgba(254, 229, 0, 0.7);
+        }
+
+
+        @keyframes float {
+
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+
+
+            .nav-menu {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 70%;
+                height: 100vh;
+                background: white;
+                flex-direction: column;
+                padding: 5rem 2rem;
+                gap: 2rem;
+                transition: right 0.4s ease;
+                box-shadow: -5px 0 20px rgba(0, 0, 0, 0.1);
+            }
+
+
+            .nav-menu.active {
+                right: 0;
+            }
+
+
+            .gallery-grid {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 1.5rem;
+            }
+
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+
+
+            section {
+                padding: 4rem 5%;
+            }
+
+
+            .contact-form {
+                padding: 2rem 1.5rem;
+            }
+
+
+            .floating-kakao {
+                width: 55px;
+                height: 55px;
+                font-size: 1.6rem;
+                bottom: 20px;
+                right: 20px;
+            }
+        }
+
+
+        /* Scroll animations */
+        .scroll-reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease;
+        }
+
+
+        .scroll-reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+
+        /* Parallax effect */
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">윤가든 사진관</a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">소개</a></li>
+                <li><a href="#portfolio" class="nav-link">포트폴리오</a></li>
+                <li><a href="#services" class="nav-link">서비스</a></li>
+                <li><a href="#info" class="nav-link">오시는 길</a></li>
+                <li><a href="#contact" class="nav-link">예약문의</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">윤가든 사진관</h1>
+            <p class="hero-subtitle">소중한 순간을 영원히 담아드립니다</p>
+            <a href="#contact" class="hero-cta">예약하기</a>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about scroll-reveal">
+        <h2 class="section-title">따뜻한 마음으로 담는 특별한 순간</h2>
+        <p class="section-subtitle">당신의 가족 이야기를 함께 만들어갑니다</p>
+        <div class="about-content">
+            <p>
+                아이들의 천진난만한 웃음, 가족의 따뜻한 사랑이 가득한 순간들은
+                다시 돌아오지 않는 소중한 시간입니다.
+            </p>
+            <p>
+                윤가든 사진관은 단순히 사진을 찍는 것이 아닌,
+                여러분의 소중한 추억과 감정을 고스란히 담아내는
+                감성적인 작업을 지향합니다.
+            </p>
+            <p>
+                울산 중구에 위치한 저희 스튜디오는 아늑하고 편안한 분위기 속에서
+                자연스럽고 아름다운 모습을 포착합니다.
+                백일, 돌잔치, 생일 등 아이의 성장 과정마다 함께하며,
+                가족의 행복한 순간을 영원히 간직할 수 있도록 도와드립니다.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Portfolio Gallery -->
+    <section id="portfolio" class="portfolio scroll-reveal">
+        <h2 class="section-title">포트폴리오</h2>
+        <p class="section-subtitle">아름다운 순간들의 기록</p>
+        <div class="gallery-grid">
+            <div class="gallery-item" data-category="1000일잇">
+                <img src="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=800&q=80" alt="1000일잇 촬영">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">1000일잇</h3>
+                    <p class="gallery-description">성장의 특별한 순간</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="백일">
+                <img src="https://images.unsplash.com/photo-1544251243-f6cd875c74b3?w=800&q=80" alt="백일 촬영">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">백일</h3>
+                    <p class="gallery-description">100일의 기적을 담다</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="돌잔치">
+                <img src="https://images.unsplash.com/photo-1519689373023-dd07c7988603?w=800&q=80" alt="돌잔치 촬영">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">돌잔치</h3>
+                    <p class="gallery-description">첫 번째 생일의 추억</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="생일촬영">
+                <img src="https://images.unsplash.com/photo-1514090458221-65c61dc24328?w=800&q=80" alt="생일 촬영">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">생일촬영</h3>
+                    <p class="gallery-description">매년 더 빛나는 미소</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="가족사진">
+                <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&q=80" alt="가족 촬영">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">가족사진</h3>
+                    <p class="gallery-description">함께하는 행복</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="여권사진">
+                <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80" alt="여권/증명사진">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">여권/증명사진</h3>
+                    <p class="gallery-description">전문적인 증명사진</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightboxClose">&times;</button>
+            <img id="lightboxImg" src="" alt="">
+        </div>
+    </div>
+
+
+    <!-- Services Section -->
+    <section id="services" class="services scroll-reveal">
+        <h2 class="section-title">서비스 안내</h2>
+        <p class="section-subtitle">합리적인 가격으로 제공하는 프리미엄 촬영</p>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-baby"></i>
+                </div>
+                <h3 class="service-title">백일/돌 촬영</h3>
+                <p class="service-price">₩80,000</p>
+                <p class="service-description">
+                    • 원본 사진 전체 제공<br>
+                    • 스튜디오 소품 무료 이용<br>
+                    • 편안한 촬영 환경<br>
+                    • 자연스러운 보정
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-camera"></i>
+                </div>
+                <h3 class="service-title">여권/증명사진</h3>
+                <p class="service-price">₩20,000</p>
+                <p class="service-description">
+                    • 빠른 촬영 및 인화<br>
+                    • 전문 조명 시스템<br>
+                    • 깔끔한 보정<br>
+                    • 다양한 규격 대응
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h3 class="service-title">가족/커플 촬영</h3>
+                <p class="service-price">문의</p>
+                <p class="service-description">
+                    • 맞춤형 컨셉 제안<br>
+                    • 원본 데이터 제공<br>
+                    • 실내외 촬영 가능<br>
+                    • 프리미엄 보정
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Business Info Section -->
+    <section id="info" class="business-info scroll-reveal">
+        <h2 class="section-title">오시는 길</h2>
+        <p class="section-subtitle">편안하게 방문해 주세요</p>
+        <div class="info-grid">
+            <div class="info-card">
+                <h3><i class="fas fa-map-marker-alt"></i> 주소</h3>
+                <p>울산 중구 염포로 3 금강빌딩 3층</p>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.123!2d129.3114!3d35.5384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDMyJzE4LjIiTiAxMjnCsDE4JzQxLjAiRQ!5e0!3m2!1sko!2skr!4v1234567890"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-phone"></i> 연락처</h3>
+                <p><a href="tel:0507-1388-3265">0507-1388-3265</a></p>
+                <a href="https://pf.kakao.com/_NzFBxj" target="_blank" class="kakao-btn">
+                    <i class="fas fa-comment"></i>
+                    카카오톡 상담하기
+                </a>
+
+
+                <h3 style="margin-top: 2rem;"><i class="fas fa-clock"></i> 영업시간</h3>
+                <table class="hours-table">
+                    <tr>
+                        <td>월요일</td>
+                        <td>10:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>화요일</td>
+                        <td>10:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>수요일</td>
+                        <td style="color: var(--color-rose); font-weight: 600;">정기휴무</td>
+                    </tr>
+                    <tr>
+                        <td>목요일</td>
+                        <td>10:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>금요일</td>
+                        <td>10:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>토요일</td>
+                        <td>10:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>일요일</td>
+                        <td style="color: var(--color-rose); font-weight: 600;">정기휴무</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Form -->
+    <section id="contact" class="contact scroll-reveal">
+        <h2 class="section-title">예약 문의</h2>
+        <p class="section-subtitle">소중한 순간을 함께 준비해요</p>
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <label for="name">이름 *</label>
+                <input type="text" id="name" name="name" required placeholder="홍길동">
+            </div>
+            <div class="form-group">
+                <label for="phone">연락처 *</label>
+                <input type="tel" id="phone" name="phone" required placeholder="010-1234-5678">
+            </div>
+            <div class="form-group">
+                <label for="date">희망 촬영일</label>
+                <input type="date" id="date" name="date">
+            </div>
+            <div class="form-group">
+                <label for="message">문의 내용</label>
+                <textarea id="message" name="message" placeholder="촬영 종류, 인원, 특별히 요청하실 사항을 적어주세요."></textarea>
+            </div>
+            <button type="submit" class="submit-btn">예약 문의하기</button>
+        </form>
+    </section>
+
+
+    <!-- Instagram Section -->
+    <section id="instagram" class="instagram scroll-reveal">
+        <h2 class="section-title">인스타그램</h2>
+        <p class="section-subtitle">더 많은 작품을 만나보세요</p>
+        <a href="https://www.instagram.com/ygarden_studio" target="_blank" class="instagram-link">
+            <i class="fab fa-instagram"></i>
+            @ygarden_studio 팔로우하기
+        </a>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-socials">
+            <a href="https://www.instagram.com/ygarden_studio" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://pf.kakao.com/_NzFBxj" target="_blank" aria-label="KakaoTalk">
+                <i class="fas fa-comment"></i>
+            </a>
+        </div>
+        <p class="footer-copyright">© 2026 윤가든 사진관. All rights reserved.</p>
+    </footer>
+
+
+    <!-- Floating KakaoTalk Button -->
+    <a href="https://pf.kakao.com/_NzFBxj" target="_blank" class="floating-kakao" aria-label="KakaoTalk">
+        <i class="fas fa-comment"></i>
+    </a>
+
+
+    <script>
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+
+        // Mobile menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('navMenu');
+
+
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+
+
+        // Lightbox functionality
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightboxImg');
+        const lightboxClose = document.getElementById('lightboxClose');
+
+
+        galleryItems.forEach(item => {
+            item.addEventListener('click', () => {
+                const imgSrc = item.querySelector('img').src;
+                lightboxImg.src = imgSrc;
+                lightbox.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+
+        lightboxClose.addEventListener('click', () => {
+            lightbox.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        });
+
+
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
+                lightbox.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+        });
+
+
+        // Scroll reveal animation
+        const scrollRevealElements = document.querySelectorAll('.scroll-reveal');
+
+
+        const revealOnScroll = () => {
+            const windowHeight = window.innerHeight;
+
+
+            scrollRevealElements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const revealPoint = 100;
+
+
+                if (elementTop < windowHeight - revealPoint) {
+                    element.classList.add('active');
+                }
+            });
+        };
+
+
+        window.addEventListener('scroll', revealOnScroll);
+        revealOnScroll(); // Initial check
+
+
+        // Contact form submission
+        const contactForm = document.getElementById('contactForm');
+
+
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+
+            const formData = new FormData(contactForm);
+            const data = Object.fromEntries(formData);
+
+
+            // Here you would typically send the data to a server
+            // For now, we'll just show an alert
+            alert(`예약 문의가 접수되었습니다!\n\n이름: ${data.name}\n연락처: ${data.phone}\n\n곧 연락드리겠습니다. 감사합니다!`);
+
+
+            contactForm.reset();
+        });
+
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+
+        // Add stagger animation to gallery items
+        window.addEventListener('load', () => {
+            galleryItems.forEach((item, index) => {
+                setTimeout(() => {
+                    item.style.opacity = '1';
+                    item.style.transform = 'translateY(0)';
+                }, index * 100);
+            });
+        });
+
+
+        // Initialize gallery items for animation
+        galleryItems.forEach(item => {
+            item.style.opacity = '0';
+            item.style.transform = 'translateY(30px)';
+            item.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        });
+    </script>
+</body>
+
+
+</html>
